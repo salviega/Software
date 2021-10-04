@@ -6,7 +6,8 @@ namespace Futbol.App.Consola
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Cada uno trabajando en su rama");
+            //Solo cambie el mensaje de Hello World
         }
     }
 }
