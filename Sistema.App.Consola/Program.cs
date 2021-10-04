@@ -12,7 +12,7 @@ namespace Sistema.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Iniciando Torneo Futbol");
-
+            //de prueba
             //AgregarDirectorTecnico();
             //BuscarDirectorTecnico(1);
             //EliminarDirectorTecnico(1);
