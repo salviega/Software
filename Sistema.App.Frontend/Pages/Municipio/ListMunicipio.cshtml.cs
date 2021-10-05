@@ -7,20 +7,16 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Sistema.App.Persistencia;
 using Sistema.App.Dominio;
 
-
-namespace Sistema.App.Frontend.Pages.Municipio
+namespace Sistema.App.Frontend.Pages
 {
-    public class IndexModel : PageModel
+    public class ListMunicipioModel : PageModel
     {
-        private readonly IRepositorioMunicipio _repoMunicipio;
+        private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio(new Persistencia.AppContext());
         public IEnumerable<Municipio> municipios {get; set;}
-        public IndexModel(IRepositorioMunicipio repoMunicipio)
-        {
-            _repoMunicipio = repoMunicipio;
-        }
         public void OnGet()
+
         {
-            municipios = _repoMunicipio.GetAllMunicipios();
+             municipios = _repoMunicipio.GetAllMunicipios();
         }
     }
 }
