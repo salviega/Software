@@ -73,3 +73,4 @@ C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Frontend\bin\Debug\net5.0\Sist
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Frontend\obj\Debug\net5.0\Razor\Pages\Estadio\ListEstadio.cshtml.g.cs
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipio\ListMunicipio.cshtml.g.cs
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Frontend\obj\Debug\net5.0\Razor\Pages\Estadio\ListEstadioDetails.cshtml.g.cs
+C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipio\ListMunicipioDetails.cshtml.g.cs
