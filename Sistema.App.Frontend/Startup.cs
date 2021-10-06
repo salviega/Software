@@ -26,8 +26,8 @@ namespace Sistema.App.Frontend
         {
             services.AddRazorPages();
             //services.AddSingleton<IRepositorioPersona, RepositorioPersona>();
-            //services.AddSingleton<IRepositorioEstadio, RepositorioEstadio>();
-            //services.AddSingleton<IRepositorioMunicipio, RepositorioMunicipio>();
+            services.AddSingleton<IRepositorioEstadio, RepositorioEstadio>();
+            services.AddSingleton<IRepositorioMunicipio, RepositorioMunicipio>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
