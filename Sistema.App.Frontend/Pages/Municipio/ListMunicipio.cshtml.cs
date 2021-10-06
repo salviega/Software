@@ -11,8 +11,14 @@ namespace Sistema.App.Frontend.Pages
 {
     public class ListMunicipioModel : PageModel
     {
-        private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio(new Persistencia.AppContext());
+        private readonly IRepositorioMunicipio _repoMunicipio;
+        //private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio(new Persistencia.AppContext());
         public IEnumerable<Municipio> municipios {get; set;}
+        public ListMunicipioModel(IRepositorioMunicipio repoMunicipio)
+        {
+           _repoMunicipio = repoMunicipio;
+        }
+        
         public void OnGet()
 
         {

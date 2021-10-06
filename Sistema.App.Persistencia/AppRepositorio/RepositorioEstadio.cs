@@ -12,7 +12,8 @@ public class RepositorioEstadio : IRepositorioEstadio
         /// Referencia al contexto Estadio
         /// </summary>
 
-        private readonly AppContext _appContext;
+        //private readonly AppContext _appContext;
+        private readonly AppContext _appContext = new AppContext();
 
         /// <summary>
         /// Metodo constructor utiliza
@@ -20,10 +21,10 @@ public class RepositorioEstadio : IRepositorioEstadio
         /// </summary>
         /// <param name="appContext"></param>//
 
-        public RepositorioEstadio(AppContext appContext)
+        /*public RepositorioEstadio(AppContext appContext)
         {
             _appContext = appContext;
-        }
+        }*/
         
         Estadio IRepositorioEstadio.AddEstadio(Estadio estadio)
         {

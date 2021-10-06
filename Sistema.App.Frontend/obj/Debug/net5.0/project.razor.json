@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Sistema.App.Frontend.csproj",
+  "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Sistema.App.Frontend.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,53 +15619,58 @@
   "RootNamespace": "Sistema.App.Frontend",
   "Documents": [
     {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\Partidos\\ListPartidos.cshtml",
-      "TargetPath": "Pages\\Partidos\\ListPartidos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\Municipio\\ListMunicipio.cshtml",
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Municipio\\ListMunicipio.cshtml",
       "TargetPath": "Pages\\Municipio\\ListMunicipio.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\Estadio\\ListEstadio.cshtml",
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Estadio\\ListEstadio.cshtml",
       "TargetPath": "Pages\\Estadio\\ListEstadio.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Torneo\\TorneoFinal\\Software\\Sistema.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Municipio\\ListMunicipioDetails.cshtml",
+      "TargetPath": "Pages\\Municipio\\ListMunicipioDetails.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Estadio\\ListEstadioDetails.cshtml",
+      "TargetPath": "Pages\\Estadio\\ListEstadioDetails.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],
