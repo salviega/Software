@@ -12,7 +12,7 @@ namespace Sistema.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Iniciando Torneo Futbol");
-            //de prueba
+            //de prueba&^$#&*_(*%$#$#)
             //AgregarDirectorTecnico();
             //BuscarDirectorTecnico(1);
             //EliminarDirectorTecnico(1);
@@ -61,10 +61,12 @@ namespace Sistema.App.Consola
         private static IRepositorioDirectorTecnico _repoDirectorTecnico = new RepositorioDirectorTecnico(new Persistencia.AppContext());
         private static IRepositorioFutbolista _repoFutbolista = new RepositorioFutbolista(new Persistencia.AppContext());
         private static IRepositorioTorneo _repoTorneo = new RepositorioTorneo(new Persistencia.AppContext());
-        private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio(new Persistencia.AppContext());
+        //private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio(new Persistencia.AppContext());
+        private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio();
         private static IRepositorioPartido _repoPartido = new RepositorioPartido(new Persistencia.AppContext());
         private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro(new Persistencia.AppContext());
-        private static IRepositorioEstadio _repoEstadio = new RepositorioEstadio(new Persistencia.AppContext());
+        //private static IRepositorioEstadio _repoEstadio = new RepositorioEstadio(new Persistencia.AppContext());
+        private static IRepositorioEstadio _repoEstadio = new RepositorioEstadio();
 
 
         /// CRUD director tecnico ///

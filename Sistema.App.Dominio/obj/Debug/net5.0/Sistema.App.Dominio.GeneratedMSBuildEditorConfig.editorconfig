@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Sistema.App.Dominio
-build_property.ProjectDir = c:\Torneo\prueba\Software\Sistema.App.Dominio\
+build_property.ProjectDir = c:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Dominio\
