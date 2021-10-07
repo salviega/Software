@@ -58,7 +58,7 @@ namespace Sistema.App.Consola
 
         }
 
-        private static IRepositorioDirectorTecnico _repoDirectorTecnico = new RepositorioDirectorTecnico(new Persistencia.AppContext());
+        private static IRepositorioDirectorTecnico _repoDirectorTecnico = new repoDirectorTecnico();
         private static IRepositorioFutbolista _repoFutbolista = new RepositorioFutbolista(new Persistencia.AppContext());
         private static IRepositorioTorneo _repoTorneo = new RepositorioTorneo(new Persistencia.AppContext());
         //private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio(new Persistencia.AppContext());
