@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GY5BtwSG7Rp8Ue1ijoU/pnqBWEakjOcWXLVgXJX4d4tOYIz7vHJA+24ANCYXKegxnwxwa/PmFAhayZwhta3RFw==",
+  "dgSpecHash": "SBEwvvNVdSmj0D+kym9AmIB/NKQ0sMJv0m9bHbAJGGBr4RRSMqEGWvlxdAMT/sIoP2b3SwM2MVrWP/MHPPzG9Q==",
   "success": true,
-  "projectFilePath": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+  "projectFilePath": "C:\\Software\\Futbol.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

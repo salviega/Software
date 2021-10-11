@@ -34,3 +34,15 @@ C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Dominio\obj\Debug\net5.0\Siste
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.dll
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Dominio\obj\Debug\net5.0\ref\Sistema.App.Dominio.dll
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.pdb
+C:\Software\Futbol.App\Sistema.App.Dominio\bin\Debug\net5.0\Sistema.App.Dominio.deps.json
+C:\Software\Futbol.App\Sistema.App.Dominio\bin\Debug\net5.0\Sistema.App.Dominio.dll
+C:\Software\Futbol.App\Sistema.App.Dominio\bin\Debug\net5.0\ref\Sistema.App.Dominio.dll
+C:\Software\Futbol.App\Sistema.App.Dominio\bin\Debug\net5.0\Sistema.App.Dominio.pdb
+C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.csproj.AssemblyReference.cache
+C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.AssemblyInfoInputs.cache
+C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.AssemblyInfo.cs
+C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.dll
+C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\ref\Sistema.App.Dominio.dll
+C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.pdb
