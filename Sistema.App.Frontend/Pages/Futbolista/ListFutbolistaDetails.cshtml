@@ -1,0 +1,23 @@
+﻿@page
+@model Sistema.App.Frontend.Pages.ListFutbolistaDetailsModel
+@{
+}
+<h1>Detalle del futbolista</h1>
+<table class="table table-dark">
+    <tr>
+        <th scope="col">Nombre</th>
+        <td>@Model.futbolista.Nombre</td>
+    </tr>
+    <tr>
+        <th scope="col">Nombre</th>
+        @if (Model.futbolista.Nombre == null)
+        {
+            <td><a class="btn btn-primary" asp-page="./AddPersona" asp-route-id="@Model.futbolista.Id">Asignar Persona</a></td>
+        } 
+        else
+        {
+            <td>@Model.futbolista.Nombre</td>
+        }        
+    </tr>
+</table>
+<a class="btn btn-primary" asp-page="./ListFutbolista">Volver</a>

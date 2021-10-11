@@ -1,0 +1,31 @@
+﻿@page
+@model Sistema.App.Frontend.Pages.ListFutbolistaModel
+@{
+}
+<h1>Listado de Futbolistas</h1>
+<a class="btn btn-primary" asp-page="./Create">Nuevo futbolista</a>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Documento</th>
+            <th scope="col">Telefono</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var futbolista in Model.futbolistas)
+        {
+            <tr>
+                <th>@futbolista.Nombre</th>
+                <th>@futbolista.Apellido</th>
+                <th>@futbolista.Documento</th>
+                <th>@futbolista.Telefono</th>
+                <td>
+                    <a class="btn btn-primary" asp-page="./ListFutbolistaDetails" asp-route-id="@futbolista.Id">Detalle</a>
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@futbolista.Id">Modificar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
