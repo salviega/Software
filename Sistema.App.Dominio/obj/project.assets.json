@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nsimon\\.nuget\\packages\\": {}
+    "C:\\Users\\hecto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
       "projectName": "Sistema.App.Dominio",
-      "projectPath": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\nsimon\\.nuget\\packages\\",
-      "outputPath": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\obj\\",
+      "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\hecto\\.nuget\\packages\\",
+      "outputPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nsimon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\hecto\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

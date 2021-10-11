@@ -11,18 +11,16 @@ namespace Sistema.App.Persistencia
         /// <summary>
         /// Referencia al contexto de Municipio
         /// </summary>
-        //private readonly AppContext _appContext;
-        private readonly AppContext _appContext = new AppContext();
+        private readonly AppContext _appContext;
         /// <summary>
         /// Metodo Constructor Utiiza 
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// </summary>
         /// <param name="appContext"></param>//
-        
-       /* public RepositorioMunicipio(AppContext appContext)
+        public RepositorioMunicipio(AppContext appContext)
         {
             _appContext = appContext;
-        }*/
+        }
 
         
         Municipio IRepositorioMunicipio.AddMunicipio(Municipio municipio)

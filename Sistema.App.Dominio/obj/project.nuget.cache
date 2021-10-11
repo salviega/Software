@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GY5BtwSG7Rp8Ue1ijoU/pnqBWEakjOcWXLVgXJX4d4tOYIz7vHJA+24ANCYXKegxnwxwa/PmFAhayZwhta3RFw==",
+  "dgSpecHash": "TO7kVvL6QO3WMkb9Oc9y4UMXTxSov4S9QNdu++/WZcHiVbTrwjU/p8TeGGNThEWzq1E3hx0BSikcQtylGxM5ew==",
   "success": true,
-  "projectFilePath": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+  "projectFilePath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
