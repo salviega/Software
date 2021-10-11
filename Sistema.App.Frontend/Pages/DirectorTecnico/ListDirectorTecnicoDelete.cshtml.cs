@@ -13,16 +13,15 @@ namespace Sistema.App.Frontend.Pages
     public class ListDirectorTecnicoDeleteModel : PageModel
     {
         private readonly IRepositorioDirectorTecnico _repoDirectorTecnico;
-        public DirectorTecnico directorTecnico {get; set;}
+        public DirectorTecnico directorTecnico { get; set; }
         public ListDirectorTecnicoDeleteModel(IRepositorioDirectorTecnico repoDirectorTecnico)
         {
-           _repoDirectorTecnico = repoDirectorTecnico;
+            _repoDirectorTecnico = repoDirectorTecnico;
         }
         public IActionResult OnGet(int id)
         {
             _repoDirectorTecnico.DeleteDirectorTecnico(id);
-            
-            if(directorTecnico == null)
+            if (directorTecnico == null)
             {
                 return NotFound();
             }
