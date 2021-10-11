@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1q1z8BhUEPWK/zaeY6kQiqlY+QBHfUY+9Yvk9JVdm0BHwEDRNZSd653OlKSlm+umjxbnccLrH7p1QiWi7OdQEg==",
+  "dgSpecHash": "SBEwvvNVdSmj0D+kym9AmIB/NKQ0sMJv0m9bHbAJGGBr4RRSMqEGWvlxdAMT/sIoP2b3SwM2MVrWP/MHPPzG9Q==",
   "success": true,
-  "projectFilePath": "C:\\Software\\futbol.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+  "projectFilePath": "C:\\Software\\Futbol.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
