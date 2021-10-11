@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj": {}
+    "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj": {
+    "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
         "projectName": "Sistema.App.Dominio",
-        "projectPath": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\nsimon\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\obj\\",
+        "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\hecto\\.nuget\\packages\\",
+        "outputPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nsimon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\hecto\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj": {
+    "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj",
         "projectName": "Sistema.App.Persistencia",
-        "projectPath": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\nsimon\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\hecto\\.nuget\\packages\\",
+        "outputPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nsimon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\hecto\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj": {
-                "projectPath": "C:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj"
+              "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj": {
+                "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj"
               }
             }
           }
@@ -130,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
