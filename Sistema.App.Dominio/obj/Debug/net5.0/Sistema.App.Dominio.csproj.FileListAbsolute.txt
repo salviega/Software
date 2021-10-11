@@ -22,6 +22,7 @@ C:\Torneo\Torneo descarga\Torneo\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.Ap
 C:\Torneo\Torneo descarga\Torneo\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.dll
 C:\Torneo\Torneo descarga\Torneo\Sistema.App.Dominio\obj\Debug\net5.0\ref\Sistema.App.Dominio.dll
 C:\Torneo\Torneo descarga\Torneo\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.pdb
+<<<<<<< HEAD
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Dominio\bin\Debug\net5.0\Sistema.App.Dominio.deps.json
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Dominio\bin\Debug\net5.0\Sistema.App.Dominio.dll
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Dominio\bin\Debug\net5.0\ref\Sistema.App.Dominio.dll
@@ -46,3 +47,5 @@ C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.
 C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.dll
 C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\ref\Sistema.App.Dominio.dll
 C:\Software\Futbol.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.pdb
+=======
+>>>>>>> 8d1dce9e163d2df7e823ea294e5c4b7453a0fa87

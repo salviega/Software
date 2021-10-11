@@ -9,14 +9,14 @@ using Sistema.App.Dominio;
 
 namespace Sistema.App.Frontend.Pages
 {
-    public class ListMunicipioModel : PageModel
+    public class ListArbitroModel : PageModel
     {
-        private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio(new Persistencia.AppContext());
-        public IEnumerable<Municipio> municipios {get; set;}
+        private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro(new Persistencia.AppContext());
+        public IEnumerable<Arbitro> arbitros { get; set; }
         public void OnGet()
 
         {
-             municipios = _repoMunicipio.GetAllMunicipios();
+            arbitros = _repoArbitro.GetAllArbitros();
         }
     }
 }

@@ -5814,11 +5814,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Santiago\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\hecto\\.nuget\\packages\\": {}
+>>>>>>> 8d1dce9e163d2df7e823ea294e5c4b7453a0fa87
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Software\\Futbol.App\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj",
       "projectName": "Sistema.App.Persistencia",
       "projectPath": "C:\\Software\\Futbol.App\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj",
@@ -5827,6 +5832,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Santiago\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj",
+      "projectName": "Sistema.App.Persistencia",
+      "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\hecto\\.nuget\\packages\\",
+      "outputPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hecto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 8d1dce9e163d2df7e823ea294e5c4b7453a0fa87
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5838,8 +5853,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Software\\Futbol.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj": {
               "projectPath": "C:\\Software\\Futbol.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj"
+=======
+            "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj": {
+              "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj"
+>>>>>>> 8d1dce9e163d2df7e823ea294e5c4b7453a0fa87
             }
           }
         }

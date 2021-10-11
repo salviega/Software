@@ -34,6 +34,7 @@ C:\Torneo\Torneo descarga\Torneo\Sistema.App.Persistencia\obj\Debug\net5.0\Siste
 C:\Torneo\Torneo descarga\Torneo\Sistema.App.Persistencia\obj\Debug\net5.0\ref\Sistema.App.Persistencia.dll
 C:\Torneo\Torneo descarga\Torneo\Sistema.App.Persistencia\obj\Debug\net5.0\Sistema.App.Persistencia.pdb
 C:\Torneo\Torneo descarga\Torneo\Sistema.App.Persistencia\obj\Debug\net5.0\Sistema.App.Persistencia.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Persistencia\bin\Debug\net5.0\Sistema.App.Persistencia.deps.json
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Persistencia\bin\Debug\net5.0\Sistema.App.Persistencia.runtimeconfig.json
 C:\CSharpAspNetCore2\Remoto3\Software\Sistema.App.Persistencia\bin\Debug\net5.0\Sistema.App.Persistencia.runtimeconfig.dev.json
@@ -70,3 +71,5 @@ C:\Software\Futbol.App\Sistema.App.Persistencia\obj\Debug\net5.0\Sistema.App.Per
 C:\Software\Futbol.App\Sistema.App.Persistencia\obj\Debug\net5.0\ref\Sistema.App.Persistencia.dll
 C:\Software\Futbol.App\Sistema.App.Persistencia\obj\Debug\net5.0\Sistema.App.Persistencia.pdb
 C:\Software\Futbol.App\Sistema.App.Persistencia\obj\Debug\net5.0\Sistema.App.Persistencia.genruntimeconfig.cache
+=======
+>>>>>>> 8d1dce9e163d2df7e823ea294e5c4b7453a0fa87

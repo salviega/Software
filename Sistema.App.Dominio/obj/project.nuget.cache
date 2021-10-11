@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "SBEwvvNVdSmj0D+kym9AmIB/NKQ0sMJv0m9bHbAJGGBr4RRSMqEGWvlxdAMT/sIoP2b3SwM2MVrWP/MHPPzG9Q==",
   "success": true,
   "projectFilePath": "C:\\Software\\Futbol.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+=======
+  "dgSpecHash": "TO7kVvL6QO3WMkb9Oc9y4UMXTxSov4S9QNdu++/WZcHiVbTrwjU/p8TeGGNThEWzq1E3hx0BSikcQtylGxM5ew==",
+  "success": true,
+  "projectFilePath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+>>>>>>> 8d1dce9e163d2df7e823ea294e5c4b7453a0fa87
   "expectedPackageFiles": [],
   "logs": []
 }
