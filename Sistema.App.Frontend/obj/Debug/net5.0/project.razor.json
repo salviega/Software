@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Estadio\\Create.cshtml",
+      "TargetPath": "Pages\\Estadio\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Estadio\\ListEstadio.cshtml",
       "TargetPath": "Pages\\Estadio\\ListEstadio.cshtml",
       "FileKind": "mvc"
@@ -15641,6 +15646,11 @@
     {
       "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Municipio\\ListMunicipioDetails.cshtml",
       "TargetPath": "Pages\\Municipio\\ListMunicipioDetails.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CSharpAspNetCore2\\Remoto3\\Software\\Sistema.App.Frontend\\Pages\\Estadio\\Edit.cshtml",
+      "TargetPath": "Pages\\Estadio\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

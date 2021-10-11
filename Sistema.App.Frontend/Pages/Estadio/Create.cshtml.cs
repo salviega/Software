@@ -9,21 +9,26 @@ using Sistema.App.Dominio;
 
 namespace Sistema.App.Frontend.Pages.Estadios
 {
-    public class ListEstadioDetailsModel : PageModel
+    public class CreateModel : PageModel
     {
         private readonly IRepositorioEstadio _repoEstadio;
         public Estadio estadio {get; set;}
-        public ListEstadioDetailsModel(IRepositorioEstadio repoEstadio)
+        public CreateModel(IRepositorioEstadio repoEstadio)
         {
             _repoEstadio = repoEstadio;
         }
 
-        public IActionResult OnGet(int id)
+        public void OnGet()
         {
-            estadio = _repoEstadio.GetEstadio(id);
-            if(estadio == null)
+            estadio = new Estadio();
+        }
+
+        public IActionResult OnPost(Estadio estadio)
+        {
+            if(ModelState.IsValid)
             {
-                return NotFound();
+                _repoEstadio.AddEstadio(estadio);
+                return RedirectToPage("ListEstadio");
             }
             else
             {

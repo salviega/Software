@@ -9,11 +9,11 @@ using Sistema.App.Dominio;
 
 namespace Sistema.App.Frontend.Pages.Estadios
 {
-    public class ListEstadioDetailsModel : PageModel
+    public class EditModel : PageModel
     {
         private readonly IRepositorioEstadio _repoEstadio;
         public Estadio estadio {get; set;}
-        public ListEstadioDetailsModel(IRepositorioEstadio repoEstadio)
+        public EditModel(IRepositorioEstadio repoEstadio)
         {
             _repoEstadio = repoEstadio;
         }
@@ -29,6 +29,11 @@ namespace Sistema.App.Frontend.Pages.Estadios
             {
                 return Page();
             }
+        }
+
+        public IActionResult OnPost(Estadio estadio){
+            _repoEstadio.UpdateEstadio(estadio);
+            return RedirectToPage("ListEstadio");
         }
     }
 }

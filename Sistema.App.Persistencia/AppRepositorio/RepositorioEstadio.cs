@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Sistema.App.Dominio;
 
@@ -15,12 +16,7 @@ public class RepositorioEstadio : IRepositorioEstadio
         //private readonly AppContext _appContext;
         private readonly AppContext _appContext = new AppContext();
 
-        /// <summary>
-        /// Metodo constructor utiliza
-        /// Inyeccion de dependencias para indicar el contexto a utilizar
-        /// </summary>
-        /// <param name="appContext"></param>//
-
+        
         /*public RepositorioEstadio(AppContext appContext)
         {
             _appContext = appContext;
@@ -47,21 +43,31 @@ public class RepositorioEstadio : IRepositorioEstadio
             return _appContext.Estadios;
         }
 
+        public Estadio GetEstadio(int idEstadio)
+        {
+            var estadio = _appContext.Estadios
+                .Where(p => p.Id == idEstadio)
+                .Include(p => p.Municipio)
+                //.Include(p => p.SignosVitales)
+                .FirstOrDefault();
+            return estadio;
+        }
+
         Estadio IRepositorioEstadio.GetEstadio(int idEstadio)
         {
             return _appContext.Estadios.FirstOrDefault(p => p.Id == idEstadio);
         }
 
-        Estadio IRepositorioEstadio.UpdateEstadio(Estadio Estadio)
+        Estadio IRepositorioEstadio.UpdateEstadio(Estadio estadio)
         {
-            var EstadioEncontrado = _appContext.Estadios.FirstOrDefault(p => p.Id == Estadio.Id);
+            var EstadioEncontrado = _appContext.Estadios.FirstOrDefault(p => p.Id == estadio.Id);
             if (EstadioEncontrado != null)
             {
-                EstadioEncontrado.Nombre=Estadio.Nombre;
-                EstadioEncontrado.Id=Estadio.Id;
-                EstadioEncontrado.Municipio=Estadio.Municipio;
+                EstadioEncontrado.Nombre=estadio.Nombre;
+                //EstadioEncontrado.Id=Estadio.Id;
+                //EstadioEncontrado.Municipio=Estadio.Municipio;
                 //EstadioEncontrado.Genero=Estadio.Genero;
-                EstadioEncontrado.Direccion=Estadio.Direccion;
+                EstadioEncontrado.Direccion=estadio.Direccion;
                 //EstadioEncontrado.Latitud=Estadio.Latitud;
                 //EstadioEncontrado.Longitud=Estadio.Longitud;
                 //EstadioEncontrado.Ciudad=Estadio.Ciudad;
@@ -76,6 +82,21 @@ public class RepositorioEstadio : IRepositorioEstadio
             }
             return EstadioEncontrado;
         }
+
+        /*Estadio IRepositorioEstadio.UpdateEstadio(string nombre, Estadio estadio)
+        //Estadio IRepositorioEstadio.UpdateEstadio(Estadio estadio)
+        {
+            var EstadioEncontrado = _appContext.Estadios.FirstOrDefault(m => m.Nombre == nombre);
+            if (EstadioEncontrado != null)
+            {
+                EstadioEncontrado.Nombre = estadio.Nombre;
+
+
+                _appContext.SaveChanges();
+
+            }
+            return EstadioEncontrado;
+        }*/
 
 //**********************************************************************************************************
         Municipio IRepositorioEstadio.AsignarMunicipio(int idEstadio, int idMunicipio)

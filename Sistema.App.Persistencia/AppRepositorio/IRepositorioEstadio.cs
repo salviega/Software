@@ -8,7 +8,10 @@ public interface IRepositorioEstadio
 {
     IEnumerable<Estadio> GetAllEstadios();
     Estadio AddEstadio(Estadio Estadio);
-    Estadio UpdateEstadio(Estadio Estadio);
+    //Estadio UpdateEstadio(Estadio Estadio);
+    //Estadio UpdateEstadio(string nombre, Estadio estadio);
+    Estadio UpdateEstadio(Estadio estadio);
+    //Estadio UpdateEstadio(Estadio estadio);
     void DeleteEstadio(int idEstadio);
     Estadio GetEstadio(int idEstadio);
     Municipio AsignarMunicipio(int idEstadio, int idMunicipio);

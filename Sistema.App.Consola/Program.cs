@@ -32,7 +32,7 @@ namespace Sistema.App.Consola
             //ActualizarTorneo();
 
             //AddMunicipio();
-            //BuscarMunicipio(1);
+            BuscarMunicipio(5);
             //DeleteMunicipio(1);
             //UpdateMunicipio();
 
@@ -55,6 +55,8 @@ namespace Sistema.App.Consola
             //BuscarEstadio(2);
             //MostrarEstadios();
             //BorrarEstadio(2);
+            //UpdateEstadio();
+            AsignarMunicipio();
 
         }
 
@@ -224,7 +226,7 @@ namespace Sistema.App.Consola
         {
             var Municipio = new Municipio
             {
-                Nombre = "Soacha",
+                Nombre = "Barranquilla",
 
 
 
@@ -476,10 +478,30 @@ namespace Sistema.App.Consola
              //Console.WriteLine(estadio.Nombre+" "+estadio.Id);
              Console.WriteLine("Base de datos actualizada");
         }*/
+        private static void UpdateEstadio()
+        {
+            Console.WriteLine("Por favor digite el Estadio que desea modificar");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Ingrese nuevo nombre: ");
+            string nombreN = Console.ReadLine();
+            var estadio = new Estadio
+            {
+                Nombre = nombreN,
+            };
+            var nuevoEstadio = _repoEstadio.UpdateEstadio(nombre, estadio);
+            Console.WriteLine("---");
+            Console.WriteLine("Estadio actualizado:");
+            Console.WriteLine(nuevoEstadio.Nombre + " ");
+
+        }
 
 
-
-
+        private static void AsignarMunicipio()
+        {
+            var municipio = _repoEstadio.AsignarMunicipio(6, 4);
+            var  auxvar = _repoEstadio.GetEstadio(5).Nombre;
+            Console.WriteLine("Se asigno el municipio "+municipio.Nombre+" al estadio "+auxvar);
+        }
 
 
 
