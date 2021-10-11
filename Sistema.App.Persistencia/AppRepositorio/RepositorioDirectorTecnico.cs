@@ -13,7 +13,7 @@ namespace Sistema.App.Persistencia
         /// Referencia al contexto Director Tecnico
         /// </summary>
 
-        private readonly AppContext _appContext;
+        private readonly AppContext _appContext = new AppContext();
 
         /// <summary>
         /// Metodo constructor utiliza
@@ -21,10 +21,6 @@ namespace Sistema.App.Persistencia
         /// </summary>
         /// <param name="appContext"></param>//
 
-        public RepositorioDirectorTecnico(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
         DirectorTecnico IRepositorioDirectorTecnico.AddDirectorTecnico(DirectorTecnico directorTecnico)
         {
             var DirectorTecnicoAdicionado = _appContext.DirectoresTecnicos.Add(directorTecnico);
